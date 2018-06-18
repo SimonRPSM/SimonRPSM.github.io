@@ -25,12 +25,13 @@ This is very different than if you are a test engineer tasked with creating a fr
 
 This sounds a bit obvious, but it is an extremely important point. If you are only tasked with writing ad-hoc tools, then you may only need to learn some basics. However, if you are tasked with writing software that you believe may need to be reused, or expanded, then you may need to learn do things the "right way".
 
-And the right way, well, there's a lot of articles written for this. For example, you may want to [teach yourself CS](https://teachyourselfcs.com/).
+And the right way, well, there's a lot of articles written for this. For example, you may want to [teach yourself CS](https://teachyourselfcs.com/). But if I was to summarize making software the "right way", I would say to not forget to treat it scientifically. Plan, execute, measure, instead of hacking things until they work. 
 
 # What should everyone learn though?
 
-No matter whether you will be writing code for a single test or for an entire line, please use Source Code Control. There are a gazillion articles on the web on this.
+No matter whether you will be writing code for a single test or for an entire line, please use Source Code Control. There are a gazillion articles on the web on this. 
 
-But second, please learn to not like your software. A problem I have seen a lot is that people get attached to the software they write - look at a lot of stuff written by others, and [refactor](https://en.wikipedia.org/wiki/Code_refactoring).
+Furthermore, please learn to not like your software. A problem I have seen a lot is that people get attached to the software they write and it creates a blind spot. It makes realizing what can be done better difficult. Look at a lot of stuff written by others, and [refactor](https://en.wikipedia.org/wiki/Code_refactoring).
+
 
 -SRPSM
