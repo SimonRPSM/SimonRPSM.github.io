@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is where I write the reason as to why I even bother making this thing. 
-
-Maybe I'll put my CV here too?
-
 Through the years I have picked up many things in the world of programming and computer science while developing software as part of my career. A few months ago I decided to re-start from the beggining and formally teach myself computer science to patch mental holes in my understanding or, at least, act as review. Here I keep a running tally of the more formal resources I've gone through, not including papers and other read material.
 
 This also *only* includes material I have been looking at starting earlier this year, and does not include any material I or courses I have consumed or tought before.
@@ -29,16 +25,3 @@ This also *only* includes material I have been looking at starting earlier this 
 - Language Implementation Patterns
 - Distributed Systems
 - Site Reliability Engineering
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
