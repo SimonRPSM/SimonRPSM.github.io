@@ -19,19 +19,21 @@ And that you have been tasked with instrumenting a part of a manufacturing line.
 
 Chances are, you may be able to get away with using canned software. But if you are not able to find what you need, what should you learn?
 
-If you are absolutely sure that your code will be throw-away and not to be reused (which almost never happens), then it may be safe to learn the basics of a programming language, do a few excercises, and get to programming.
+If you are absolutely sure that your code will be throw-away and not to be reused (which almost never happens), then it may be safe to learn the basics of a programming language and do a few excercises. From there, you can build a simple piece of software that uses some kind of API to read a few temperatures and saves them to a file. The code will have its functionality statically defined - namely, it will run and do one simple thing. It will not necessarily be the most performant, but the majority of the heavy lifting will be done by the driver that you are using. 
 
 This is very different than if you are a test engineer tasked with creating a framework for testing parts across a full manufacturing line.
 
-This sounds a bit obvious, but it is an extremely important point. If you are only tasked with writing ad-hoc tools, then you may only need to learn some basics. However, if you are tasked with writing software that you believe may need to be reused, or expanded, then you may need to learn do things the "right way".
+This sounds a bit obvious, but it is an extremely important point. If you are only tasked with writing ad-hoc tools, then you may only need to learn some basics through the process of learning a programming language. However, if you are tasked with writing software that you believe may need to be reused, or expanded, then you may need to learn do things the "right way".
 
-And the right way, well, there's a lot of articles written for this. For example, you may want to [teach yourself CS](https://teachyourselfcs.com/). But if I was to summarize making software the "right way", I would say to not forget to treat it scientifically. Plan, execute, measure, instead of hacking things until they work. 
+And the right way, well, there's a lot of articles written for this. For example, you may want to [teach yourself CS](https://teachyourselfcs.com/). But if I was to summarize making software the "right way", I would say to not forget to treat it scientifically. Plan, execute, measure - these things are often forgotten in the rush of trying out code until it happens to work.  
 
 # What should everyone learn though?
 
-No matter whether you will be writing code for a single test or for an entire line, please use Source Code Control. There are a gazillion articles on the web on this. 
+No matter whether you will be writing code for a single test or for an entire line, there are a few things everyone should do. First, try to understand what your code is doing instead of writing lines by trial and error until things happen to work. 
 
-Furthermore, please learn to not like your software. A problem I have seen a lot is that people get attached to the software they write and it creates a blind spot. It makes realizing what can be done better difficult. Look at a lot of stuff written by others, and [refactor](https://en.wikipedia.org/wiki/Code_refactoring).
+Second, please use Source Code Control. There are a gazillion articles on the web on this. Yes, even if you are the only person working on the project. No, it does not even have to cost you money. 
+
+Furthermore, please learn to not like your software. A problem I have seen a lot is that people get attached to the software they write and it creates a blind spot. It makes realizing what can be done better quite difficult. Look at a lot of stuff written by others, and [refactor](https://en.wikipedia.org/wiki/Code_refactoring).
 
 
 -SRPSM
