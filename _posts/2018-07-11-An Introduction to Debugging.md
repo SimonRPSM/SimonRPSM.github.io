@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "An Introduction to Debugging"
+categories: intro
+---
+
+(in work)
+
+# Debugging is often taught incidentally
+When most people learn to program or to work with software, it is pretty common that they learn a few tips and tricks on how to Debug. You will write some software, it will not work, and then you start looking for what is wrong until it works - rinse, wash, repeat. Through introductory programming courses, you often learn about intricacies of the language or IDE that you are using, but rarely is there much time given to how to Debug.
+
+I learnt a lot about the topic when I started doing Applications Engineering and directly supported our customers, mostly through trial and error. Being mentored by some more senior engineers helped quite a bit, but it was always a bit puzzling when they could pinpoint problems just a few questions. It was not necessarily that they had run into the same thing, but simply that, like anything else, debugging is something you get good at.
+
+# When do you need to Debug?
+"Well, when things don't work" is not a correct answer. Before beggining to debug your software or system, you really need to think about what the system is supposed to do. And write it down. No exceptions. This is because if you cannot state in words what your system is supposed to do, you probably have a very hazy definition of what "it works" means. Pinpointing what your system should do by describing its requirements is paramount to figuring out what is broken, regardless of whether your code is acting weird, or your machine is constantly running into its mechanical limit switches.
+
+# How do you start?
+Once you have defined what your system needs to do, then you can start trying to figure out whether or not it is doing that very thing. I will leave aside comments of design for this discussion to focus on the troubleshooting itself. However, software that is well designed and tested is much easier to debug.
+
+# What kind of bug is it?
+There are two main types of problems. Repeatable problems, and non-repeatable problems. We will focus on the first group first.
+
+First, figure out what the trigger is for the problem you are seeing.
+
+Second, treat it as a searching algorithm. Once you know what the input to your system is, and what the output should be, then you can follow the path of that input all the way through the different glue-layers until the output.
+
+(Diagram)
+
+A good analogy to this is dye testing for plumbing. In dye testing, a specific bright-green die is injected into a plumbing system somewhere - then you look for anywhere that you can see this dye. In software, you can do something similar by taking the time to trace the input to your system through every unit until it's output. This can be done by elegant IDEs or debuggers, but do not discount the humble text file or writing to Syslog. Have each module or unit log to a text file what data it is receiving and its output. Then you may trace the file or Syslog, which often gives you insight onto what is going on within your system, even if you cannot directly peak into it's execution.
+
+While it seems pretty painful to do, it is not dissimilar from instrumenting a physical system. Taking the time to do this slowly and thoughtfully when problems arise (if you could not do it before for reasons xyz) will generally save time in the long run - I have almost never come up ahead when I just tried to wing it. 
