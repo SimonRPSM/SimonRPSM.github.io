@@ -28,7 +28,7 @@ A good analogy to this is dye testing for plumbing. In dye testing, a specific b
 
 While it seems pretty painful to do, it is not dissimilar from instrumenting a physical system. Taking the time to do this slowly and thoughtfully when problems arise (if you could not do it before for reasons xyz) will generally save time in the long run - I have almost never come up ahead when I just tried to wing it. 
 
-![Diagram](https://github.com/SimonRPSM/SimonRPSM.github.io/blob/master/_posts/Diagrams/DebuggingSampleSystem.png)
+![Diagram](https://raw.githubusercontent.com/SimonRPSM/SimonRPSM.github.io/master/_posts/Diagrams/DebuggingSampleSystem.png)
 
 Using the above system as an example, you may realize that you are getting garbage data in a User Interface at some point. Most of the time the first reaction is to check out the logs - but what, exactly does that tell us?
 
