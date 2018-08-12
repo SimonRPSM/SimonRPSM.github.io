@@ -4,12 +4,7 @@ title: Elements
 description: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 ---
 
-<ul class="actions">
-	<li><a href="" class="button special">Debug!</a></li>
-</ul>
-
 <section>
-	Hello - Im still pretty new at this Jekyll thing, so please ignore a bunch of noise that follows.
 	<h4>Text</h4>
 	<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 	This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.

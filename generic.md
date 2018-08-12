@@ -1,33 +1,19 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Generic
+description: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 ---
 
-Through the years I have picked up many things in the world of programming and computer science while developing software as part of my career. A few months ago I decided to re-start from the beggining and formally teach myself computer science to patch mental holes in my understanding or, at least, act as review. Here I keep a running tally of the more formal resources I've gone through, not including papers and other read material.
+### Lorem ipsum dolor
 
-This also *only* includes material I have been looking at starting earlier this year, and does not include any material I or courses I have consumed or tought before.
+Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.
 
-## Finished and In Progress
-### Courses
-- Introduction to Computer Science and Programming Using Python (EDX, MITx -  6.00.1x)
-  - Introduction to Computation and Programming Using Python: With Application to Understanding Data (MIT Press)
-- Introduction to Computational Thinking and Data Science (MITx -  6.00.2x)
-- (In Progress) Build a Modern Computer from First Principles: From Nand to Tetris - Part 1(Coursera)
-  -(In Progress) The Elements of Computing Systems (Book)
-### Books
-- (In Progress) Design Patterns: Elements of Reusable Object-Oriented Software
+Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.
 
-## Backlog
-- Code Complete: A Practical Handbook of Software Construction
-- Clean Code: A Handbook of Agile Software Craftsmanship
-- The Algorithm Design Manual (Skiena)
-- Language Implementation Patterns
-- Distributed Systems
-- Site Reliability Engineering
+--------------------------------------------------------------------------------
 
-## Template
+#### Feugiat aliquam
 
-I started with the Spectral template by Andrew Banchich, who started with some of the HMLT5Up stuff. Check it out here:
-<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
-<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.
+
+Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.
