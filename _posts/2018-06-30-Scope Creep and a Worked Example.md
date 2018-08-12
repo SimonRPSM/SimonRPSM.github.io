@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Scope Creep : A worked Example"
-categories: intro
+categories: blog
 ---
 
 # Say you are still the same test engineer
 On a previous post I brought up the idea of learning what you need to do your job. I also then proceeded to mention that if you only make throw-away code you can be pretty safe from needing to figure out some of the future intricacies of software design. Let us chat about why code is never as throw-away as we would initially imagine.
-
+"<!--more-->"
 On the same example as before, let's imagine that you need to use some tools to measure temperatures in your manufacturing line. You buy some kind of USB Data Acquisition (DAQ) device and get to work. Then you write some code to do the following - let's work under the assumption that you can't use some kind of canned software to do this for now:
 
 A. Begin communicating with the USB DAQ device.

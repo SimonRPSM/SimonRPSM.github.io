@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "How much programming do I need?"
-categories: intro
+categories: blog
 ---
-(In work)
 
 # How does a Mechanical Engineer get taught about Software Topics?
 In my case, not at all. When I was in school, we had one programming class which taught basics on C and FORTRAN. Some classes assumed you had some MATLAB familiarity, others some LabVIEW concepts, but that was pretty much it. This is problematic, because many of these classes depended on creating some models or small control systems. It should be of no surprise that most of my code ended up looking like a mess until I took an internship that was mostly programming. Then my code ended up looking like a terrible mess.
-
+"<!--more-->"
 # So what should you learn?
 I spent a few years after I graduated asking myself the wrong question - "What languages should I learn?".
 
