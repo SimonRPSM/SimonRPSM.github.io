@@ -2,6 +2,7 @@
 layout: post
 title:  "Scope Creep : A worked Example"
 categories: blog
+description: "This code is totally for this one use only"
 ---
 
 # Say you are still the same test engineer

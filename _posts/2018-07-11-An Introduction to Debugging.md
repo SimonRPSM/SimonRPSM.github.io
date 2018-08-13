@@ -2,6 +2,7 @@
 layout: post
 title:  "An Introduction to Debugging"
 categories: intro
+description: Everything is broken.
 ---
 
 (in work)

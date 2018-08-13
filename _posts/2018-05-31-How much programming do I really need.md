@@ -2,6 +2,7 @@
 layout: post
 title:  "How much programming do I need?"
 categories: blog
+description: And what should you learn?
 ---
 
 # How does a Mechanical Engineer get taught about Software Topics?
