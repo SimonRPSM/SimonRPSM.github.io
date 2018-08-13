@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: A quick background
 ---
 
 Through the years I have picked up many things in the world of programming and computer science while developing software as part of my career. A few months ago I decided to re-start from the beggining and formally teach myself computer science to patch mental holes in my understanding or, at least, act as review. Here I keep a running tally of the more formal resources I've gone through, not including papers and other read material.
@@ -28,6 +29,6 @@ This also *only* includes material I have been looking at starting earlier this 
 
 ## Template
 
-I started with the Spectral template by Andrew Banchich, who started with some of the HMLT5Up stuff. Check it out here:
-<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
-<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+I started with the Spectral template based upon HMLT5Up. Check it out here:
+<li>Original Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+<li>Jekyll integration: <a href="https://github.com/arkadianriver/spectral" target="_blank">Gary Faircloth</a>.</li>
