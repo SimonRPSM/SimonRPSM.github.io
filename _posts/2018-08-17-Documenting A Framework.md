@@ -29,9 +29,9 @@ For simplicity, let us ignore the configuration aspect. Otherwise the list gets 
 Let's start by discussing the first use-case. This case needs to have an understanding of:
 
 * Nomenclature
- * External components
+  * External components
 * API
- * External API - how to call the framework
+  * External API - how to call the framework
 * List of available sample projects
 * List of currently available modules
 
@@ -40,28 +40,28 @@ And that's pretty much it.
 The second use-case requires those things, as well as a few extra ones:
 
 * Nomenclature
- * External components
- * Plugin components
+  * External components
+  * Plugin components
 * API
- * External API - how to call the framework
- * Integration APIs - how to load up a module into the framework
+  * External API - how to call the framework
+  * Integration APIs - how to load up a module into the framework
 * List of available sample projects
 * List of currently available modules
 
 The third use-case takes those things and adds quite a few more:
 
 * Nomenclature
- * External components
- * Plugin components
- * Engine components
+  * External components
+  * Plugin components
+  * Engine components
 * API
- * External API - how to call the framework
- * Integration APIs - how to load up a module into the framework
- * Engine APIs
+  * External API - how to call the framework
+  * Integration APIs - how to load up a module into the framework
+  * Engine APIs
 * List of available sample projects
 * List of currently available modules
- * Where to look at the available modules source code
- * How the available modules work, to use as examples
+  * Where to look at the available modules source code
+  * How the available modules work, to use as examples
 * Best practices
 * Niche topics
 
