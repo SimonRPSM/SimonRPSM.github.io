@@ -10,22 +10,30 @@ layout: landing
 						<a href="#one" class="more scrolly">Debug!</a>
 					</section>
 
+				<!-- Latest posts -->
 					<section id="one" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2><a href="/blog/">Blog</a></h2>
-								<p>Learning software engineering as a Mechie</p>
-							</div>
-						</section>
-<!--						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Topics and Categories</h2>
-								<p>Machine Vision, Motion Control, Automation</p>
-							</div>
-						</section>
+						{% for post in site.posts limit:3 %}
+							<section class="spotlight">
+									<div class="content">
+										<h2><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h2>
+										<p>{{ post.description }}</p>
+									</div>
+							</section>
+						{% endfor %}
 					</section>
--->
-					<section id="two" class="wrapper style2 special">
+
+				<!-- All blog posts -->
+					<section id="two" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2><a href="/blog/">All Blog posts</a></h2>
+								<p>Learning software engineering as a Mechie</p>
+							</header>
+						</div>
+					</section>
+
+				<!-- Project Section -->
+					<section id="three" class="wrapper style2 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Project Directory</h2>
@@ -39,18 +47,3 @@ layout: landing
 							</ul>
 						</div>
 					</section>
-
-				<!-- CTA
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
-							</header>
-							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">To the Top!</a></li>
-								<li><a href="#" class="button fit">To the Top!</a></li>
-							</ul>
-						</div>
-					</section>
-					-->
