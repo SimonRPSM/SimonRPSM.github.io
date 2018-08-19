@@ -2,6 +2,7 @@
 layout: page
 title: A Primer on Machine Vision
 description: The basic terminology and an introductory methodology
+tags: primer
 ---
 ## [First Draft - needs a ton of work]
 
