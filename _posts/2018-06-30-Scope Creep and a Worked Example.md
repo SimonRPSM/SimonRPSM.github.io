@@ -5,7 +5,7 @@ categories: blog
 description: "This code is totally for this one use only"
 ---
 
-# Say you are still the same test engineer
+## Say you are still the same test engineer
 On a previous post I brought up the idea of learning what you need to do your job. I also then proceeded to mention that if you only make throw-away code you can be pretty safe from needing to figure out some of the future intricacies of software design. Let us chat about why code is never as throw-away as we would initially imagine.
 "<!--more-->"
 On the same example as before, let's imagine that you need to use some tools to measure temperatures in your manufacturing line. You buy some kind of USB Data Acquisition (DAQ) device and get to work. Then you write some code to do the following - let's work under the assumption that you can't use some kind of canned software to do this for now:
@@ -38,7 +38,7 @@ Awesome, you get your data again - but the information that you get seems wonky.
 
 So now you need to change lines A and B.
 
-# This is a silly example
+## This is a silly example
 
 But it is one that I have seen a lot of times. You begin to work on writing some software for a quick test but only think about the current test at hand.
 
@@ -46,7 +46,7 @@ Where things get interesting is trying to make sure that your code can do what y
 
 Even if you are willing to disregard all code made previously for each single project, the project's needs may change forcing you to need to change your software to accomplish whatever it is you are trying to do.
 
-# So what should we do for this?
+## So what should we do for this?
 
 First, let's think about what needs to happen to get data on an abstract level - without discussing the implementation details.
 
@@ -71,6 +71,6 @@ A. Find and start communicating with a device.
 
 At a very simplified level, this could be kept within a configuration document in some form. It could be as simple as: A121
 
-This is not necessarily a good starting point for an application, but a thought excercise on what vectors of your application can change. This is also an excercise to understand the importance of software requirements which everyone agrees are important, but often are ignored.
+This is not necessarily a good starting point for an application, but a thought exercise on what vectors of your application can change. This is also an exercise to understand the importance of software requirements which everyone agrees are important, but often are ignored.
 
--SRPSM
+\- Simon Perez Santa Maria

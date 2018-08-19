@@ -7,18 +7,18 @@ description: Everything is broken.
 
 (in work)
 
-# Debugging is often taught incidentally
+## Debugging is often taught incidentally
 When most people learn to program or to work with software, it is pretty common that they learn a few tips and tricks on how to Debug. You will write some software, it will not work, and then you start looking for what is wrong until it works - rinse, wash, repeat. Through introductory programming courses, you often learn about intricacies of the language or IDE that you are using, but rarely is there much time given to how to Debug.
 
 I learnt a lot about the topic when I started doing Applications Engineering and directly supported our customers, mostly through trial and error. Being mentored by some more senior engineers helped quite a bit, but it was always a bit puzzling when they could pinpoint problems just a few questions. It was not necessarily that they had run into the same thing, but simply that, like anything else, debugging is something you get good at.
 
-# When do you need to Debug?
-"Well, when things don't work" is not a correct answer. Before beggining to debug your software or system, you really need to think about what the system is supposed to do. And write it down. No exceptions. This is because if you cannot state in words what your system is supposed to do, you probably have a very hazy definition of what "it works" means. Pinpointing what your system should do by describing its requirements is paramount to figuring out what is broken, regardless of whether your code is acting weird, or your machine is constantly running into its mechanical limit switches.
+## When do you need to Debug?
+"Well, when things don't work" is not a correct answer. Before beginning to debug your software or system, you really need to think about what the system is supposed to do. And write it down. No exceptions. This is because if you cannot state in words what your system is supposed to do, you probably have a very hazy definition of what "it works" means. Pinpointing what your system should do by describing its requirements is paramount to figuring out what is broken, regardless of whether your code is acting weird, or your machine is constantly running into its mechanical limit switches.
 
-# How do you start?
+## How do you start?
 Once you have defined what your system needs to do, then you can start trying to figure out whether or not it is doing that very thing. I will leave aside comments of design for this discussion to focus on the troubleshooting itself. However, software that is well designed and tested is much easier to debug.
 
-# What kind of bug is it?
+## What kind of bug is it?
 There are two main types of problems. Repeatable problems, and non-repeatable problems. We will focus on the first group first.
 
 First, figure out what the trigger is for the problem you are seeing.
@@ -37,4 +37,6 @@ If the logs are good, then we can look at the path the data took until the Log a
 
 It the logs show us the incorrect data we expect, then we can assume that the problem happens before the analysis. If you have no other way to peak into the system, you could start by checking the physical connections or checking with handheld instruments whether the sensors give the expected data. Then, as possible, continue splitting the problem in half until you hare a pretty good idea as to where you think there will be a problem.
 
-Then write it down. Write what you think the problem is, what you will change, and how you expect it to react. If at all possible, note it down on top of a system diagram. Otherwise, as you continuously change things within your system you may forget the exact changes done and troubleshoot things unecessarily.
+Then write it down. Write what you think the problem is, what you will change, and how you expect it to react. If at all possible, note it down on top of a system diagram. Otherwise, as you continuously change things within your system you may forget the exact changes done and troubleshoot things unnecessarily.
+
+\- Simon Perez Santa Maria
