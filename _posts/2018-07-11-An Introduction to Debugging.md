@@ -5,8 +5,6 @@ categories: intro
 description: Everything is broken.
 ---
 
-(in work)
-
 ## Debugging is often taught incidentally
 When most people learn to program or to work with software, it is pretty common that they learn a few tips and tricks on how to Debug. You will write some software, it will not work, and then you start looking for what is wrong until it works - rinse, wash, repeat. Through introductory programming courses, you often learn about intricacies of the language or IDE that you are using, but rarely is there much time given to how to Debug.
 

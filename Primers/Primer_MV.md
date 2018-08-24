@@ -11,7 +11,7 @@ I put a computer together recently. One of the many steps of the process is to p
 
 If the standoffs are mounted on the case, either a person put them there, or a machine screwed them in. For both options, the case is quite likely checked before being shipped to ensure the right number of standoffs have been applied.
 
-Similarly to how a person can add the standoffs, a machine could also check that the standoffs are there.
+Similarly to how a person can check the standoffs, a machine could also check that the standoffs are there.
 
 How could this be done? Some approaches would be to use the fact that a standoff, well, stands off the case. Therefore, a probe could be used to check for object presence by lightly bumping onto all the standoffs. Another option would be to train a machine to do the same thing a person would do - look at it.
 
@@ -48,20 +48,15 @@ The working distance is generally defined as the distance between the vision sys
 The necessity of being able to control the ambient light cannot be overestimated. I like to describe ambient light as analogous to noise on an electrical cable. In the same way that you would not put your thermocouple wiring, unshielded, on top of a motor drive, trying to set up any optical measurement without controlling (or at least understanding ambient light) will yield unpredictable results at best. You can try to filter it out if it does not directly clash with your measurement (the same way that you can filter out 60hz noise from something connected to the wall), but that is not always the case. Checking if an LED is on or off in direct sunlight can be difficult.
 
 ### 4. Get to calculating
-This is where a lot of the work goes. First, calculate the necessary resolution of the sensor making an assumption about your area of interest (the area that will be in the image and that contains your DUT). Second, look at lenses that would give you the right area of interest to get the resolution you need. This may include looking at MTF charts to figure out the maximum resolution a lens can resolve. Three, look at what cameras contain the specifications of the sensor you need (in resolution, framerate and accuracy). Fourth, ensure that the lens you picked will work with your sensor. For example, some sensors are particularly large and the lens itself needs to be large enough not to *window* out pieces of the image.
+This is where a lot of the work goes. First, calculate the necessary resolution of the sensor making an assumption about your area of interest (the area that will be in the image and that contains your DUT). Second, look at lenses that would give you the right area of interest to get the resolution you need. This may include looking at MTF charts to figure out the maximum resolution a lens can resolve. Third, look at what cameras contain the specifications of the sensor you need (in resolution, framerate and accuracy). Fourth, ensure that the lens you picked will work with your sensor. For example, some sensors are particularly large and the lens itself needs to be large enough not to *window* out pieces of the image.
 
 ### 5. Now you can actually set up the rest of the system
-This is where you start considering the bus of the camera, as well as latency, triggering capabilities, control options, etc.
+Now that you understand the layout and your requirements you can start making tradeoffs. Here is where you would decide the communication bus, specific hardware models, etc.
 
-### 6. Ok, no you can start thinking about the software
-That's not quite right - you want to be considering this throughout the process, but a lot of things will start to crystalize as you go through the decision on the system components.
-
-### 7. Having fun with integration
+### 6. Having fun with integration
 And then you can start putting it all together.
 
 ## All of this sounds pretty painful and generic
 There are a lot of resources on each step, as well as pieces of software that you can leverage.
-
-I will be trying to compile a series of tools and articles on each piece to help out.
 
 \- Simon Perez Santa Maria

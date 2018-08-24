@@ -6,12 +6,12 @@ description: And what should you learn?
 ---
 
 ## How does a Mechanical Engineer get taught about Software Topics?
-In my case, not at all. When I was in school, we had one programming class which taught basics on C and FORTRAN. Some classes assumed you had some MATLAB familiarity, others some LabVIEW concepts, but that was pretty much it. This is problematic, because many of these classes depended on creating some models or small control systems. It should be of no surprise that most of my code ended up looking like a mess until I took an internship that was mostly programming. Then my code ended up looking like a terrible mess.
+In my case, not at all. When I was in school, we had one programming class which taught basics on C and FORTRAN. Some classes assumed you had some MATLAB familiarity, others some LabVIEW concepts, but that was pretty much it. This is problematic, because many of these classes depended on creating some models or small control systems. It should be of no surprise that most of my code ended up looking like a mess until I took an internship that was mostly programming. Then my code ended up looking like a terrible mess because there was just more of it.
 
 ## So what should you learn?
 I spent a few years after I graduated asking myself the wrong question - "What languages should I learn?".
 
-This is the wrong question for multiple reasons. First, learning a programming language alone will only make you able to write terrible code in one language. And learning another language will simply help you to torture another compiler. Second, it does not tell you when you are done, or whether it is a good usage of your time. The right question to ask, at least at the beggining, is "How much Software Engineering/Computer Science do I need to know to do my job?". Then, the follow up becomes "How much of this stuff do I need to learn to make my life better?"
+This is the wrong question for multiple reasons. First, learning a programming language alone will only make you able to write terrible code in that language. And learning another language will simply help you to torture another compiler. Second, it does not tell you when you are done, or whether it is a good usage of your time. The right question to ask, at least at the beginning, is "How much Software Engineering/Computer Science do I need to know to do my job?". Then, the follow up becomes "How much of this stuff do I need to learn to make my life better?"
 
 Having asked that question, let us explore the topic a bit.
 
@@ -20,7 +20,7 @@ And that you have been tasked with instrumenting a part of a manufacturing line.
 
 Chances are, you may be able to get away with using canned software. But if you are not able to find what you need, what should you learn?
 
-If you are absolutely sure that your code will be throw-away and not to be reused (which almost never happens), then it may be safe to learn the basics of a programming language and do a few excercises. From there, you can build a simple piece of software that uses some kind of API to read a few temperatures and saves them to a file. The code will have its functionality statically defined - namely, it will run and do one simple thing. It will not necessarily be the most performant, but the majority of the heavy lifting will be done by the driver that you are using.
+If you are absolutely sure that your code will be throw-away and not to be reused (which almost never happens), then it may be safe to learn the basics of a programming language and do a few exercises. From there, you can build a simple piece of software that uses some kind of API to read a few temperatures and saves them to a file. The code will have its functionality statically defined - namely, it will run and do one simple thing. It will not necessarily be the most performant, but the majority of the heavy lifting will be done by the driver that you are using.
 
 This is very different than if you are a test engineer tasked with creating a framework for testing parts across a full manufacturing line.
 
