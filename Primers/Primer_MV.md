@@ -33,7 +33,7 @@ Great, you still want to set up a machine vision system. Where do you start?
 I tend to work from the object to be measured and towards the machine, so let's start at the DUT with a different example. Let's say you are manufacturing cups (because its the closest object to me right now).
 
 ### 1. Understand what you actually are trying to measure
-Similar to software testing, it is not enough to just say that "the cup needs to be good/ fine/ pretty/ etc". You need to have specific things that you want to measure, such as the width of the base and what is acceptable. Some things can be slightly harder to quantify such as ensuring that the base is circular, but for those there are specific geometric measurements such as the Heywood Circularity Factor.
+Similar to software testing, it is not enough to just say that "the cup needs to be good/ fine/ pretty/ etc". You need to have specific things that you want to measure, such as the width of the base, and have an idea of what is acceptable. Some things can be slightly harder to quantify such as ensuring that the base is "circular enough", but for those there are sometimes specific geometric measurements such as the Heywood Circularity Factor.
 
 ### 2. Understand how accurately and precisely you need to measure it
 If you are measuring an electric signal then this would depend on values such as the resolution of the Data Acquisition System and its accuracy. Here it will correlate to the resolution of the sensor (amongst other specifications) as well as the physical layout.

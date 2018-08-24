@@ -3,6 +3,9 @@ layout: page
 title: Learning the Liturgy
 description: I have no idea what anyone is talking about
 ---
+
+## I Don't Know What Anyone is Talking About
+
 1. I don't know the basics
 2. Subject Matter Expert on a Subject Matter
 3. Not an SME on everything
