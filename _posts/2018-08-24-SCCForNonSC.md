@@ -5,7 +5,7 @@ description: What other uses exist for Source Code Control beyond putting your s
 ---
 
 ## Calling your documents Report_v3_final_forrealthistime.doc
-I often start a report with the best intentions. I intend to ensure that I keep one file updated, but that there are backups. Every once in a while I will come up with a different idea. Maybe it would be best if I remove one section, but I like the content in it. It's ok, I tell myself, I will remove that part and save it as another file. Then I will think about it for a bit and get rid of one of the versions.
+I often start a report or paper with the best intentions. I intend to ensure that I keep one file updated, but that there are backups. Every once in a while I will come up with a different idea. Maybe it would be best if I remove one section, but I like the content in it. It's ok, I tell myself, I will remove that part and save it as another file. Then I will think about it for a bit and get rid of one of the versions.
 
 So I end up with Report.doc and Report_Abridged.doc. While my cloud backup tools can take care of reverting a version or two, I do not know when the last snapshot was taken, hence why I opted to just change the file name until I figure out which one is better. After creating the second file I forget about the first until maybe a few years later when I am cleaning up that computer.
 
@@ -19,7 +19,7 @@ One of the interesting side-effects of software is that it is often starts as te
 The blog is hosted in Github, a Source Code Control provider. Ignoring, for now, the sections of this that are "code", many files are just pure text files with some formatting in them saved in a format called "Markdown".
 
 ## Working in Markdown
-Markdown is a simple markup language that can be converted and rendered as HTML or many other formats. There are a lot of guides on Markdown, so I will not quite go onto how to use it. What is important, is that Markdown can be written in a simple text editor and saved.
+Markdown is a simple markup language that can be converted and rendered as HTML, PDF or many other formats. There are a lot of guides on Markdown, so I will not quite go onto how to use it. What is important, is that Markdown can be written in a simple text editor and saved.
 
 ## Taking advantage of Github when writing text
 Source Code Control tools have two main uses that are relevant to this discussion. The first is that they allow you to not worry about losing your data by keeping it somewhere that is not your computer and thus safe from coffee spills. The second, and more important, is that they can keep track of your changes without needing to continue to append \_final to your files manually.
