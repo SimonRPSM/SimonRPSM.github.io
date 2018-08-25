@@ -6,32 +6,13 @@ description: A quick background
 tags: sidebar
 ---
 
-Through the years I have picked up many things in the world of programming and computer science while developing software as part of my career. A few months ago I decided to re-start from the beginning and formally teach myself computer science topics to patch mental holes in my understanding or, at least, act as review. Here I keep a running tally of the more formal resources I've gone through, not including papers and other read material.
+I graduated from McGill University with a degree in Mechanical Engineering and have been working in automated test and industrial embedded systems ever since. After some time as an Applications Engineer I moved to a Systems Engineering role, where a large part of my role requires me to consider and set up software and hardware architectures.
 
-This also *only* includes material I have been looking at starting earlier this year, and does not include any material I or courses I have consumed or taught before.
+My focus at work has mostly been on machine vision and motion control. For the first topic, I have designed systems for industrial manufacturing, from lens selection to algorithm creation. For the second, I have done motor sizing and set up various architectures and control schemes.
 
-## Finished and In Progress
+Through the years I have picked up many things in the world of programming and computer science while developing software as part of my career, and decided to start creating some content to share lessons learnt.
 
-### Courses
-- Introduction to Computer Science and Programming Using Python (EDX, MITx -  6.00.1x)
-- Introduction to Computational Thinking and Data Science (MITx -  6.00.2x)
-- (In Progress) Build a Modern Computer from First Principles: From Nand to Tetris - Part 1(Coursera)
-
-### Books
-
-- (In Progress) Design Patterns: Elements of Reusable Object-Oriented Software
-- Introduction to Computation and Programming Using Python: With Application to Understanding Data (MIT Press)
-- (In Progress) The Elements of Computing Systems (Book)
-
-## Backlog
-
-- Code Complete: A Practical Handbook of Software Construction
-- Clean Code: A Handbook of Agile Software Craftsmanship
-- The Algorithm Design Manual (Skiena)
-- Language Implementation Patterns
-- Distributed Systems
-- Site Reliability Engineering
-- Making Embedded Systems, Elecia White
+\- Simon Perez Santa Maria
 
 ## Template
 
