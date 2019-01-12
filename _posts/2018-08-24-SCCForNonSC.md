@@ -16,7 +16,7 @@ I save the file as Report_Abridged_Final_v2. And so on.
 ## What does this have to do with Source Code Control?
 One of the interesting side-effects of software is that it is often starts as text files. Tools created to save, compare or analyze source code can often be used for completely different things. This blog is a great example.
 
-The blog is hosted in Github, a Source Code Control provider. Ignoring, for now, the sections of this that are "code", many files are just pure text files with some formatting in them saved in a format called "Markdown".
+The blog is hosted in Github, a Version Control provider. Ignoring, for now, the sections of this that are "code", many files are just pure text files with some formatting in them saved in a format called "Markdown". Let's ignore, for now, the difference between Source Code Control, Version Control, etc.
 
 ## Working in Markdown
 Markdown is a simple markup language that can be converted and rendered as HTML, PDF or many other formats. There are a lot of guides on Markdown, so I will not quite go onto how to use it. What is important, is that Markdown can be written in a simple text editor and saved.
@@ -29,7 +29,7 @@ This means that you can create a report of some kind, and, instead of saving it 
 An important difference is that you have much more granularity on what versions are "frozen" and can be reverted to.
 
 ## Writing a report
-Every day you make a few changes and push them to a repository without needing to change the file name ,even if you are not sure the changes will stick. If you ever need to look at a previous version of the file, just Revert to it. If you forgot what changed, just use a Diff tool to automatically compare.
+Every day you make a few changes and push them to a repository without needing to change the file name, even if you are not sure the changes will stick. If you ever need to look at a previous version of the file, just Revert to it. If you forgot what changed, just use a Diff tool to automatically compare.
 
 Should you need to stick to a more standard document type that does not allow directly loading it up onto a text editor for a Diff, you can simply ignore the Diff part and have it track changes for you. At every "save" you can pretty easily add comments to keep track of what's different.
 

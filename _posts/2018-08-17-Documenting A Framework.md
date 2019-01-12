@@ -5,21 +5,21 @@ description: Lessons learnt from documenting a large Open Source project
 image: DCAF.png
 ---
 ## A Starting point
-Writing good documentation is pretty hard, and not something I necessarily look forward to. But unless you want to be constantly answering questions about your code it is worthwhile doing.
+Writing good documentation is pretty hard, and not something I necessarily look forward to. But unless you want to be constantly answering questions about your code, it is worthwhile doing. It is also an important tool for when you look at your own software a year from now and realize that the shortcuts you took for elegance make things a bit hard to read.
 
-When I started looking into the documentation that existed for DCAF, I came to the conclusion that there was a fair bit of good material, but it was mostly in a series of presentations within a Documentation repo. The presentations were sorted by when they were presented more than by topic, which meant that you had to have knowledge of when a topic was discussed to get information about it.
+When I started looking into the documentation that existed for [DCAF](https://github.com/LabVIEW-DCAF/Documentation), I came to the conclusion that there was a fair bit of good material, but it was mostly in a series of presentations within a Documentation repo. The presentations were sorted by when they were presented more than by topic, which meant that you had to have knowledge of when a topic was discussed to get information about it.
 
 There was also some help contained within the sample projects, but you had to know that there were sample projects to get there. Finally, there was also some documentation on the DCAF forum - but any documentation update required being an admin to that forum. And finding any help also requires searching through a forum, which is not ideal.
 
 ## What makes good framework documentation?
 There are a lot of tools and books written on documenting code.
 
-Many of these cover things such as making the code itself self-documenting (Pragmatic Programmer), or on how to make code have a certain "look" so that a reader can easily understand what something is (style guides like the Python PEP). There are also books on software requirements and project requirements and their documentation, but I wanted to talk about how to document a framework.
+Many of these cover things such as making the code itself self-documenting (Pragmatic Programmer), or on how to make code have a certain "look" so that a reader can easily understand what something is (style guides like the Python PEP). There are also books on software requirements and project requirements and their documentation, but I wanted to talk about how to document a framework. This is not about how to write each individual document, but about coming up with some kind of strategy for your own documentation.
 
 In this case, there are 3 types of things that a user could want to do with DCAF:
 
 1. Use the Framework without programming anything. Only use the Configuration Editor and have custom code (if any) exist outside the framework.
-2. Use the Framework and create application specific behaviour within it. Use the examples to load it or add extra behaviour.
+2. Use the Framework and create application specific behavior within it. Use the examples to load it or add extra behavior.
 3. Build re-usable plug-ins for the framework, or modify the framework itself.
 
 For simplicity, let us ignore the configuration aspect. Otherwise the list gets too long to keep copying.
@@ -81,7 +81,8 @@ Also, there were still a bunch of documents on the forum that are orphaned
 
 ## What are we aiming for?
 
-Currently I am working on trying to simplify the available materials even further. Ideally, we would have the following organization:
+EDIT:
+I removed the text that was within this section, because we did the thing. The following section pretty much describes the current state of the DCAF Documentation
 
 #### 1. Presentations
 
