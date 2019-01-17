@@ -12,7 +12,7 @@ In **Clean Code**, the author, Robert Martin, quotes Ron Jeffries' thoughts on w
 
 ## LabVIEW and code organization
 
-In LabVIEW, a subroutine or function must effectively be its own file. This is pretty dramatically different than many other languages where it is common to put multiple functions within the same file insofar as they belong to the same package.
+In LabVIEW, a subroutine or function must effectively be its own file. This is pretty dramatically different from many other languages where it is common to put multiple functions within the same file insofar as they belong to the same package.
 
 For example, let's look at the [this Java code](https://github.com/clojure/clojure/blob/master/src/jvm/clojure/lang/Cons.java) that wraps Clojure calls.
 
@@ -24,7 +24,7 @@ Well, there would likely be a main library (.lvlib file) and a series of files -
 
 ## Why does this matter?
 
-I think this matters because it seems like the code gets tiny-er by definition. It's now in multiple files.
+I think this matters because it seems like the code gets tiny-er by definition. It's now in multiple files. Furthermore, with some discipline, it allows you to minimize diffing file during merges as long as you are the only person working on that function at the time. 
 
 However, we have to do the same amount of work to ensure that each individual function is not dependent on things it does not depend on, does not continue to duplicate lower-level logic, etc. There is a great opportunity because the language itself pushes you towards that division of responsibility - but you still got to do the work and notice if you are starting to replicate logic across multiple files.
 

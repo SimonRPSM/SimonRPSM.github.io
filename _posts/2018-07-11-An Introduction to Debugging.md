@@ -2,7 +2,7 @@
 layout: post
 title:  "An Introduction to Debugging"
 categories: intro
-description: Everything is broken and I don't know what's broken. 
+description: Everything is broken and I don't know what's broken.
 ---
 
 ## Debugging is often taught incidentally
@@ -40,4 +40,5 @@ Then write it down. Write what you think the problem is, what you will change, a
 This last two pieces are particularly important when troubleshooting the second kind of problem - those that are not repeatable.
 
 If your problem is not repeatable, then you need to either figure out a way to force it to happen, or to change the system until it does not. Similarly to the pairing down idea, you will need to pair down the inputs or environment until you have figured out which inputs have an effect on the reproducibility of the system. Some of these can be more obvious than others - hardware resource contention can be obvious at times (system fails if there are other things running and the CPU is at 100%) or not obvious (if there is another device acting as a master clock on the network and your system time servos to it instead of the target you'd expect).
+
 \- Simon Perez Santa Maria
