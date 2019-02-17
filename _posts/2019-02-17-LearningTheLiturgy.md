@@ -3,10 +3,9 @@ layout: page
 title: Learning the Liturgy
 description: I have no idea what anyone is talking about
 ---
-[in work, im just putting some things down for now]
 
 ## I Don't Know What Anyone is Talking About
-The world of Software is filled with pretty arcane terminology that can be pretty daunting the non initiated. I would like to taxonomize this lexicon in the following pieces:
+The world of Software is filled with pretty arcane terminology that can be pretty daunting the non-initiated. I would like to taxonomize this lexicon in the following pieces, also for the non-initiated:
 
 1. Computer Science Terminology
 2. Internal company jargon
