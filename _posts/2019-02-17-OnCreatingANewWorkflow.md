@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learning the Liturgy
+title: On creating a new workflow
 description: I have no idea what anyone is talking about
 ---
 
@@ -22,7 +22,7 @@ At this level we start discussing the specific workflows used to meet the demand
 
 For example, here we investigate the type of version control needed (it's needed, that's not part of the discussion), the artifacting strategy, the documentation strategy.
 
-It is also here that we consider the processes for working as a team - does GitFlow Lite make sense? Should we all just work on separate repos and communicate our artifacts via carrier pigeons ?
+It is also here that we consider the processes for working as a team - does GitFlow Lite make sense? Should we all just work on separate repos and communicate our artifacts via carrier pigeons?
 
 # Development Craftsmanship
 
